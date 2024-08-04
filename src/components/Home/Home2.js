@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -12,6 +14,38 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Col xs="auto">
+        <Link to="/about">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            About
+          </Button>
+        </Link>
+      </Col>
+      <Col xs="auto">
+        <Link to="/project">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            Projects
+          </Button>
+        </Link>
+      </Col>
+      <Col xs="auto">
+        <Link to="/resume">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            Resume
+          </Button>
+        </Link>
+      </Col>
+    </Row>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -56,6 +90,38 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Col xs="auto">
+        <Link to="/about">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            About
+          </Button>
+        </Link>
+      </Col>
+      <Col xs="auto">
+        <Link to="/project">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            Projects
+          </Button>
+        </Link>
+      </Col>
+      <Col xs="auto">
+        <Link to="/resume">
+          <Button
+            variant="primary"
+            style={{ maxWidth: "250px", margin: "0 10px" }}
+          >
+            Resume
+          </Button>
+        </Link>
+      </Col>
+    </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
