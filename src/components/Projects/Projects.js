@@ -36,7 +36,7 @@ function Projects() {
           <ProjectCard
             imgPath={password}
             isBlog={false}
-            title="Password Manager"
+            title="CipherSafe"
             description="A secure and intuitive password management application that uses AES-128 encryption via the Fernet module for safeguarding user credentials. Integrated with Firebase for authentication, it offers seamless access with Google Sign-In. The application ensures data protection and provides a user-friendly interface for managing your passwords efficiently."
             ghLink="https://github.com/srinath9954/Password_App"
             demoLink="https://password-app-frontend.vercel.app/"
