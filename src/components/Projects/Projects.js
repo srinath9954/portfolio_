@@ -8,6 +8,7 @@ import gather from "../../Assets/Projects/gather.png";
 import hotel from "../../Assets/Projects/hotel.png";
 import epanchayat from "../../Assets/Projects/epanchayat.png";
 import vitian from "../../Assets/Projects/vitian.png";
+import password from "../../Assets/Projects/password.png";
 
 function Projects() {
   return (
@@ -31,6 +32,17 @@ function Projects() {
             demoLink=""
           />
           </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={password}
+            isBlog={false}
+            title="Password Manager"
+            description="A secure and intuitive password management application that uses AES-128 encryption via the Fernet module for safeguarding user credentials. Integrated with Firebase for authentication, it offers seamless access with Google Sign-In. The application ensures data protection and provides a user-friendly interface for managing your passwords efficiently."
+            ghLink="https://github.com/srinath9954/Password_App"
+            demoLink="https://password-app-frontend.vercel.app/"
+          />
+        </Col>
+
 
           <Col md={4} className="project-card">
           <ProjectCard
