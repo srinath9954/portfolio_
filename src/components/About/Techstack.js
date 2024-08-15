@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiGithub,
 } from "react-icons/di";
 
 function Techstack() {
