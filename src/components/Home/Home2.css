@@ -1,0 +1,11 @@
+.button-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .button-row .btn {
+    width: 100px; /* You can adjust this as needed */
+  }
+  
