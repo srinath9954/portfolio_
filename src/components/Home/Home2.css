@@ -7,5 +7,7 @@
   
   .button-row .btn {
     width: 100px; /* You can adjust this as needed */
+    border: 1.7px solid rgba(239, 235, 241, 0.637) !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   }
   
