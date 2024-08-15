@@ -9,40 +9,26 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./Home2.css";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-      <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Row style={{ justifyContent: "center", position: "relative" }} className="button-row">
       <Col xs="auto">
         <Link to="/about">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            About
-          </Button>
+          <Button variant="primary" className="home-button">About</Button>
         </Link>
       </Col>
       <Col xs="auto">
         <Link to="/project">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            Projects
-          </Button>
+          <Button variant="primary" className="home-button">Projects</Button>
         </Link>
       </Col>
       <Col xs="auto">
         <Link to="/resume">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            Resume
-          </Button>
+          <Button variant="primary" className="home-button">Resume</Button>
         </Link>
       </Col>
     </Row>
@@ -90,38 +76,24 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-      <Col xs="auto">
-        <Link to="/about">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            About
-          </Button>
-        </Link>
-      </Col>
-      <Col xs="auto">
-        <Link to="/project">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            Projects
-          </Button>
-        </Link>
-      </Col>
-      <Col xs="auto">
-        <Link to="/resume">
-          <Button
-            variant="primary"
-            style={{ maxWidth: "250px", margin: "0 10px" }}
-          >
-            Resume
-          </Button>
-        </Link>
-      </Col>
-    </Row>
+        <Row style={{ justifyContent: "center", position: "relative" }} className="button-row">
+        <Col xs="auto">
+          <Link to="/about">
+            <Button variant="primary" className="home-button">About</Button>
+          </Link>
+        </Col>
+        <Col xs="auto">
+          <Link to="/project">
+            <Button variant="primary" className="home-button">Projects</Button>
+          </Link>
+        </Col>
+        <Col xs="auto">
+          <Link to="/resume">
+            <Button variant="primary" className="home-button">Resume</Button>
+          </Link>
+        </Col>
+      </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
