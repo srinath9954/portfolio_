@@ -20,6 +20,7 @@ function Techstack() {
     { icon: <DiReact />, name: "React" },
     { icon: <DiNodejs />, name: "Node.js" },
     { icon: <DiGit />, name: "Git" },
+    { icon: <DiGithub />, name: "Github" },
   ];
 
   return (
